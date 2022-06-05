@@ -5,11 +5,19 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  background: #16a9c9;
+  //background: #2a2a2a;
+  background: repeating-linear-gradient(45deg, #2a2a2a, #2a2a2a 30px, #fff159 30px, #fff159 60px);
 }
+
 
 /*@media (min-width: 1326px) {
   body {
     background: linear-gradient(to bottom , #ff0000 50%, #16a9c9 50%);
   }
 }*/
+
+@media (max-width: 991px) {
+  body {
+    background: repeating-linear-gradient(45deg, #2a2a2a, #2a2a2a 20px, #fff159 20px, #fff159 40px);
+  }
+}
