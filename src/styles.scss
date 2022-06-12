@@ -21,3 +21,14 @@ body {
     background: repeating-linear-gradient(45deg, #2a2a2a, #2a2a2a 20px, #ffdb00 20px, #ffdb00 40px);
   }
 }
+
+
+@media (min-width: 992px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
